@@ -15,6 +15,7 @@ export default (
     <Route path='about' component={About} />
     <Route path='navbar' component={NavBar} />
     <Route path='lorem' component={Lorem} />
+    <Route path='home' component={Home} />
     <Route path='*' component={LandingHome} />
   </Route>
 );

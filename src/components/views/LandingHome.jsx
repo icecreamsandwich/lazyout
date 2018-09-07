@@ -6,6 +6,7 @@ import Contact from './contact';
 import About from './about';
 import NavBar from './navbar';
 import MySideNav from './sidenav';
+import RT_Footer from './footer';
 
 var LandingHome = React.createClass({
     getInitialState: function() {
@@ -19,7 +20,8 @@ var LandingHome = React.createClass({
         return (
             <div>
                 <NavBar />
-                <MySideNav />
+                <MySideNav style={{clear:'both'}} />
+                <RT_Footer />
             </div>
         );
     }
